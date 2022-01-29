@@ -11,3 +11,14 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ index.php [QSA,L]
 ~~~
+
+## ¿Cómo realizar el llamado del API?
+
+Ruta: {RUTA_BASE}/{NOMBRE_CARPETA}/v1/albums?q={ARTISTA}
+
+Ejemplos : 
+1. Si la carpeta se llama "apiSpotify"
+>http://localhost/apiSpotify/v1/albums?q=Bad%20Bunny
+
+2. Si la carpeta se llama "api"
+>http://localhost/api/v1/albums?q=Pedro%20Suarez%20Vertiz
