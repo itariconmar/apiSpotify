@@ -14,6 +14,7 @@ RewriteRule ^ index.php [QSA,L]
 
 ## ¿Cómo realizar el llamado del API?
 
+GET
 Ruta: {RUTA_BASE}/{NOMBRE_CARPETA}/v1/albums?q={ARTISTA}
 
 Ejemplos : 
